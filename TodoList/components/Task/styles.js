@@ -14,14 +14,18 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
     },
     itemIndex: {
-        backgroundColor: colors.second,
         color: colors.white,
         fontSize: 16,
         fontWeight: '700',
         paddingHorizontal: 15,
         paddingVertical: 10,
         borderRadius: 10,
-
+    },
+    itemIndexEven: {
+        backgroundColor: colors.green,
+    },
+    itemIndexOdd: {
+        backgroundColor: colors.second,
     },
     itemContent: {
         width: '80%',
